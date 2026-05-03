@@ -1,40 +1,101 @@
-# 🔐 Python Password Generator
+# 🔐 Security Toolkit (Python App)
 
-A secure and customizable password generator built using Python. This tool helps you generate strong passwords using letters, numbers, and symbols.
+A powerful **Security Toolkit** built using Python that includes multiple tools like password generator, username generator, strength analyzer, and more.
+
+---
 
 ## 🚀 Features
-- Generate strong and secure passwords
-- Custom password length
-- Option to include letters, digits, and symbols
-- Easy to use Python script
+
+* 🔑 Password Generator
+* 👤 Username Generator
+* 📊 Strength Analyzer
+* 🔒 Password Manager
+* 🔢 PIN / OTP Generator
+
+---
 
 ## 🛠️ Technologies Used
-- Python
-- Random module
-- String module
+
+* Python
+* Tkinter (GUI)
+* Random & String Modules
+
+---
 
 ## 📂 Project Structure
+
 ```
-password.py
+multi_generator.py
 README.md
 ```
 
-## ▶️ How to Run
-1. Install Python
-2. Run the script:
+---
+
+## ▶️ How to Run (Method 1 – Python)
+
+### Step 1: Install Python
+
+Download from: https://www.python.org/
+
+### Step 2: Download Project
+
+Click **Code → Download ZIP** and extract it
+
+### Step 3: Run in CMD
+
+Open CMD in project folder and run:
+
 ```
-python password.py
+python multi_generator.py
 ```
 
-## 💡 Example Output
+👉 This will open the GUI app like shown in the preview.
+
+---
+
+## 💻 How to Run (Method 2 – EXE File) 🔥
+
+### Step 1: Install PyInstaller
+
 ```
-Generated Password: A7#kL9@pQ
+pip install pyinstaller
 ```
 
-## 📌 Use Case
-- Secure login passwords
-- Online accounts safety
-- Personal use
+### Step 2: Create EXE
+
+```
+pyinstaller --onefile multi_generator.py
+```
+
+### Step 3: Run App
+
+Go to:
+
+```
+dist/multi_generator.exe
+```
+
+👉 Double click to open (No Python needed)
+
+---
+
+## 🌐 Important Note
+
+❌ This project cannot run directly in browser or GitHub Pages
+✔️ It must be run using Python or EXE file
+
+---
+
+## 📌 Use Cases
+
+* Secure password generation
+* Account safety
+* Personal security tools
+
+---
 
 ## ⭐ Support
-If you like this project, give it a star ⭐ on GitHub!
+
+If you like this project, give it a ⭐ on GitHub!
+
+
